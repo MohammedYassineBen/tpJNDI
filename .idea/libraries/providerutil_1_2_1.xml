@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="providerutil-1.2.1">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../providerutil-1.2.1.jar/providerutil-1.2.1.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

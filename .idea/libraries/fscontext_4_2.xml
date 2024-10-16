@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="fscontext-4.2">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/../fscontext-4.2.jar/fscontext-4.2.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
