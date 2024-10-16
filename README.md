@@ -16,7 +16,11 @@ Le projet contient les classes Java suivantes :
 
 1. Assurez-vous d'avoir le JDK installé et que les commandes `java` et `javac` sont disponibles dans le chemin système.
 
-2. Compilez tous les fichiers Java en utilisant la commande suivante dans le répertoire du projet :
+2. Assurez-vous qu'aucune autre application n'utilise le port 1099, qui est le port par défaut pour le registre RMI.
+
+3. Assurez-vous d'ajouter le fichier [`fscontext.jar`](https://mvnrepository.com/artifact/com.sun.messaging.mq/fscontext/4.6-b01) et [`providerutil.jar`](https://mvnrepository.com/artifact/com.sun.jndi/providerutil/1.2) au projet.
+
+4. Compilez tous les fichiers Java en utilisant la commande suivante dans le répertoire du projet :
 
    ```
    javac *.java
@@ -39,8 +43,6 @@ Le projet contient les classes Java suivantes :
    ```
 
 3. Le client affichera un menu avec des options pour ajouter un livre, rechercher un livre, lister tous les livres ou quitter l'application.
-
-4. Assurez-vous qu'aucune autre application n'utilise le port 1099, qui est le port par défaut pour le registre RMI.
 
 ## Utilisation
 
